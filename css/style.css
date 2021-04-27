@@ -109,6 +109,7 @@ a:hover {
 .last_post .content article {
     width: 380px;
     display: inline-block;
+    vertical-align: top;
 }
 
 .last_post .content article div {
