@@ -130,7 +130,7 @@ a:hover {
 }
 
 .contact_us iframe {
-    width: 770px;
+    max-width: 770px;
     height: 295px;
 }
 
