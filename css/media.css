@@ -63,5 +63,18 @@
         margin-bottom: 50px;  
     }
 
-  
+    .contact_us article {
+        width: 45%;
+        vertical-align: top;
+    }
+
+    h6 {
+        padding: 20px 0;
+    }
+
+    .contact_us article p {
+        padding-bottom: 20px;
+        word-wrap: break-word;
+        font-size: 18px;
+    }
 }
