@@ -155,7 +155,7 @@ a:hover {
 
 .contact_us article {
     width: 380px;
-    height: 416px;
+    padding-bottom: 50px;
     display: inline-block;
 }
 

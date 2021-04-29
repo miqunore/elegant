@@ -72,6 +72,10 @@
         padding: 20px 0;
     }
 
+    .contact_us article div {
+        height: 150px;
+    }
+
     .contact_us article p {
         padding-bottom: 20px;
         word-wrap: break-word;
