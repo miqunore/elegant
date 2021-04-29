@@ -20,6 +20,7 @@ header {
     position: absolute;
     color: white;
     font-size: 16px;
+    z-index: 100;
 }
 
 section {
@@ -33,10 +34,14 @@ section {
     background-size: cover;
     height: 100vh;
     color: white;
-    font-size: 5vh;
-    line-height: 100vh;
-
+    font-size: 50px;
+    position: relative;
+    z-index: 10;
+    display: flex;
+    justify-content: center; 
+    align-items: center;  
 }
+
 
 .container_1 samp {
     font-style: italic;
@@ -96,6 +101,10 @@ a:hover {
     padding-top: 20px;
 }
 
+.container_5 div img {
+    width: 100%;
+}
+
 .container_5 article p {
     font-size: 13px;
 }
@@ -110,6 +119,10 @@ a:hover {
     width: 380px;
     display: inline-block;
     vertical-align: top;
+}
+
+.last_post .content article img {
+    width: 100%;
 }
 
 .last_post .content article div {
@@ -163,9 +176,11 @@ footer div {
     margin: auto;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 35px 10px;
+    line-height: 30px;
 }
 
 footer p {
     font-size: 15px;
-    padding: 44px 0;
 }

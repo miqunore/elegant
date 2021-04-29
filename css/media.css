@@ -1,0 +1,67 @@
+@media only screen and (max-width: 500px) {
+    .container_1  {
+        background-image: url(../images/cd-intro-bg-mobile.jpg);
+        
+        color: white;
+        font-size: 4vh;
+        line-height: normal;
+        width: 100vw;
+    }
+
+    figure {
+
+        
+    }
+
+
+    header {
+        background-color: rgba(0, 0, 0, .5);
+        padding: 14px ;
+        margin: 0 ;
+    }
+
+  
+    .last_post .content article {
+        width: 90%;
+    }
+
+    h2 {
+        margin-bottom: 20px;
+       
+    }
+
+    .container_2 p {
+        padding-bottom: 50px;
+    }
+
+    .container_3 img {
+        width: 100%;
+    }
+
+    .container_5 div {
+        width: 90%;
+        height: fit-content;
+        padding-bottom: 35px;
+    }
+
+    .last_post .content {
+        width: 90%;
+        height: fit-content;
+        padding-bottom: 35px;
+        display: inline-block;
+    }
+
+    .last_post .content article  {
+        width: 100%;
+    }
+
+    .last_post .content article p {
+        padding-bottom: 50px;
+    }
+
+    .last_post .content {
+        margin-bottom: 50px;  
+    }
+
+  
+}
