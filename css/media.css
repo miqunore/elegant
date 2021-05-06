@@ -121,6 +121,10 @@
 
     .container_contact_2 div{
         height: fit-content;
+
+    }
+
+  
 }
 
 
@@ -138,5 +142,26 @@
 
     .about_services article p {
         padding-bottom: 90px;
+    }
+
+    .button_project {
+        display: none;
+    }
+
+    .project_content_column {
+        display: block;
+    }
+
+    .project_content_column ul:last-child {
+        max-width: none;
+    }
+
+    .section_project {
+        padding: 20px 0;
+        margin: 20% 3% 3%;
+    }
+
+    .project_content_column ul p {
+        padding: 40px 0 50px;
     }
 }
