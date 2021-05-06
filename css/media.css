@@ -85,6 +85,26 @@
     .container_about2 p {
         padding: 88px 30px 166px;
     }
+
+    .blog_content_column {
+        flex-direction: column;
+
+    }
+
+    .section_blog {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .container_blog {
+        display: none;
+    }
+
+    .section_blog .blog_content_column_2 {
+        max-width: 100%;
+        padding: 0 30px;
+    }
+
 }
 
 
