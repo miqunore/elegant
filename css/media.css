@@ -96,8 +96,12 @@
         margin-right: 5%;
     }
 
-    .container_blog {
+    .container_blog, .container_contact {
         display: none;
+    }
+
+    h4 {
+        padding-top: 80px;
     }
 
     .section_blog .blog_content_column_2 {
@@ -108,6 +112,15 @@
     .container_about  {
         background-image: url(../images/SW_CalebMorris1.jpg);
     }
+    
+    .container_contact_2 div{
+        display: block;
+        width: 90% !important;
+        margin-left: 5%;
+    }
+
+    .container_contact_2 div{
+        height: fit-content;
 }
 
 
