@@ -358,7 +358,7 @@ footer p {
     font-size: 23px;
 }
 
-.container_contact_2 div:nth-child(1) :before, .container_contact_2 div:nth-child(4) :before {
+.container_contact_2 div:first-child :before, .container_contact_2 div:last-child :before {
     content: "";
     display: block;
     height: 3px;
