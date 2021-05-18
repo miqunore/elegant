@@ -6,8 +6,8 @@ $(document).ready(function() {
         nav: true,
         navText: ['', ' '],
         autoplay: true,
-        autoplayTimeout: 5000,
-        autoplayHoverPause: true,
+        autoplayTimeout: 3000,
+        autoplayHoverPause: false,
         responsive: {
             0: {
                 items: 1
