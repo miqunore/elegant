@@ -43,6 +43,32 @@ section {
     align-items: center;  
 }
 
+.container_1_1  {
+    background-image: url(../images/cd-intro-about-bg.jpg);
+    background-size: cover;
+    height: 100vh;
+    color: white;
+    font-size: 50px;
+    position: relative;
+    z-index: 10;
+    display: flex;
+    justify-content: center; 
+    align-items: center;  
+}
+
+.container_1_2  {
+    background-image: url(../images/project-bg.jpg);
+    background-size: cover;
+    height: 100vh;
+    color: white;
+    font-size: 50px;
+    position: relative;
+    z-index: 10;
+    display: flex;
+    justify-content: center; 
+    align-items: center;  
+}
+
 
 .container_1 samp {
     font-style: italic;
