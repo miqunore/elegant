@@ -512,3 +512,75 @@ footer p {
     right: 0;
     text-align: center;
 }
+
+.ui-dialog-title {
+    background-color: black;
+    color: white;
+    font-size: 24px;
+    padding: 40px;
+    margin: 0;
+    white-space: normal;
+    width: 100%;
+    overflow: hidden;
+}
+
+.ui-dialog {
+    height: auto;
+    width: 750px !important;
+    left: 50% !important;
+    margin-left: -375px;
+    display: block;
+}
+
+.ui-button {
+    display: none;
+}
+
+.ui-dialog-titlebar {
+    padding: 0 !important;
+}
+
+.ui-dialog-title {
+    margin: 0 !important;
+}
+.dialog form {
+padding-top: 45px;
+}
+
+.dialog input {
+    float: right;
+    width: 385px;
+    height: 60px;
+}
+
+.dialog span {
+    float: left;
+    padding-left: 90px;
+    font-size: 22px;
+    line-height: 32px;
+}
+
+.dialog button {
+    background-color: #d6d6d6;
+    width: 530px;
+    height: 60px;
+    border: none;
+    margin-top: 40px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.dialog p {
+    font-size: 22px;
+    padding: 32px;
+}
+
+.dialog a {
+    font-size: 24px;
+    color: white;
+    background-color: #557bcc;
+    width: 530px;
+    height: 60px;
+    border: none;
+    font-weight: bold;
+}
